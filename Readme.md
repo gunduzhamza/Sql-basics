@@ -53,14 +53,14 @@
 
 #### 3- Queries abaout related table <a name="#3"></a>
 
-######3.1 Write the query that brings the list of employees still working in our company. <br> Note: Those who have an null  indate are the employees who continue to work.
+###### 3.1 Write the query that brings the list of employees still working in our company. <br> Note: Those who have an null  indate are the employees who continue to work.
 
 ```sql
 SELECT * FROM PERSON WHERE OUTDATE IS NULL
 ```
 <br>
 
-######3.2 Please write the query that brings the numbers of WOMEN and MEN who are still working on a departmental basis in our company.
+###### 3.2 Please write the query that brings the numbers of WOMEN and MEN who are still working on a departmental basis in our company.
 
 ```sql
 --Using join
@@ -92,7 +92,7 @@ order by department
 - Output
 <img src="/images/q2.png" alt="drawing" height="300"/>
 
-######3.3 Please write the query that brings the numbers of WOMEN and MEN who are still working on a departmental basis in our company. <br> Note: Women and men must be in different columns
+###### 3.3 Please write the query that brings the numbers of WOMEN and MEN who are still working on a departmental basis in our company. <br> Note: Women and men must be in different columns
 ```sql
 --Using subquery
 Select DEPARTMENT,
@@ -104,7 +104,7 @@ order by DEPARTMENT
 - Output
 <img src="/images/q3.png" alt="drawing" height="300"/>
 
-######3.4 A new chief has been appointed to our company's Planning department and we would like to set his salary. Write the query that returns the minimum, maximum and average chief salary for the planning department. <br> Note: Dismissal salaries are also included.
+###### 3.4 A new chief has been appointed to our company's Planning department and we would like to set his salary. Write the query that returns the minimum, maximum and average chief salary for the planning department. <br> Note: Dismissal salaries are also included.
 ```sql
 --Using subquery
 Select
@@ -129,7 +129,7 @@ GROUP BY PST.POSITION
 - Output
 <img src="/images/q4.png" alt="drawing"/>
 
-######3.5 As current employees in each position, we want to list how many people and what their average salary is. Write the query that returns this result.
+###### 3.5 As current employees in each position, we want to list how many people and what their average salary is. Write the query that returns this result.
 
 ```sql
 --Using subquery
@@ -157,7 +157,7 @@ ORDER BY PST.POSITION
 - Output
 <img src="/images/q5.png" alt="drawing" height=250 />
 
-######3.6 Write the query that lists the number of personnel recruited by year on the basis of men and women.
+###### 3.6 Write the query that lists the number of personnel recruited by year on the basis of men and women.
 
 ```sql
 SELECT TMP.YEAR_,
@@ -178,7 +178,7 @@ ORDER BY YEAR_
 - Output 
 <img src="/images/q6.png" alt="drawing"/>
 
-######3.7 Please write the query that brings the information of how long each of our personnel has been working in months.
+###### 3.7 Please write the query that brings the information of how long each of our personnel has been working in months.
 ```sql
 SELECT
 TMP.PERSON,CAST(TMP.INDATE AS DATE) INDATE,
@@ -196,7 +196,7 @@ from PERSON) AS TMP
 - Output
 <img src="/images/q7.png" alt="drawing" height=250/>
 
-######3.8 In its 5th year, our company will print an agenda with the initials of everyone's names and surnames and present it to its employees. For this, write the query that answers the question of which letter combination will be printed at least how many times. <br> Note: The first letter of the first name will be used for those with two names.
+###### 3.8 In its 5th year, our company will print an agenda with the initials of everyone's names and surnames and present it to its employees. For this, write the query that answers the question of which letter combination will be printed at least how many times. <br> Note: The first letter of the first name will be used for those with two names.
 
 ```sql
 SELECT 
@@ -209,7 +209,7 @@ ORDER BY COUNT(SUBSTRING(NAME_,1,1)+'.'+SUBSTRING(SURNAME,1,1)) DESC
 - Output
 <img src="/images/q8.png" alt="drawing" height=250/>
 
-######3.9 Write the query that will list the departments with an average salary of more than 5,550 TL.
+###### 3.9 Write the query that will list the departments with an average salary of more than 5,550 TL.
 
 ```sql
 --Using Subquery
@@ -232,7 +232,7 @@ HAVING AVG(SALARY)>5500
 - Output
 <img src="/images/q9.png" alt="drawing"/>
 
-######3.10 Write the query in the drawer to calculate the average seniority of the departments in months and as in the figure.
+###### 3.10 Write the query in the drawer to calculate the average seniority of the departments in months and as in the figure.
 
 ```sql
 SELECT 
@@ -252,7 +252,7 @@ GROUP BY TMP.DEPARTMENT
 - Output
 <img src="/images/q10.png" alt="drawing" height=200/>
 
-######3.11 Write down the query that brings the name of each personnel, the name of the unit manager to which they are affiliated, and their position.
+###### 3.11 Write down the query that brings the name of each personnel, the name of the unit manager to which they are affiliated, and their position.
 
 ```sql
 SELECT
