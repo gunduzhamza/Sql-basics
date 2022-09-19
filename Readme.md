@@ -28,15 +28,18 @@
 - First right click on database and from task find İmport Data and click on it.
 <img src="/images/importdata.png" alt="drawing" height=350 width=450/>
 <br>
+
 - Choose data source Microsoft Excel
 - After that attach the file path of excel file. Simply click on Browse button and attach it.
 - Press Next button
 <img src="/images/datasource.png" alt="drawing" height=400 width=450/>
 <br>
+
 - Choose SQL Server Native Client as a Destination.
 - Press Next button
 <img src="/images/destination.png" alt="drawing" height=400 width=450/>
 <br>
+
 - Choose tables that you want to implement
 - Press Next button
 <img src="/images/tables.png" alt="drawing" height=400 width=450/>
@@ -44,12 +47,15 @@
 - Click on finish and the tables will be implemented succesfully
 <img src="/images/finish.png" alt="drawing" height=400 width=450/>
 <br>
+
 - The tables are implemented succesfully
 <img src="/images/showtables.png" alt="drawing" height=450/>
 <br>
+
 - Press database diagram and set arrangment between primary and foreign keys.
 <img src="/images/diagram.png" alt="drawing" height=350 width=450/>
 <br>
+
 - Tables relations is below. Now we can save and move to the T-Sql queies
 <img src="/images/arrangetables.png" alt="drawing" height=450 width=600/>
 <br>
