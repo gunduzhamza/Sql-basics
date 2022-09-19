@@ -1,6 +1,9 @@
 <h2 align="center"> SQL SERVER BASICS</h2>
+<h2 align="center">
+ <img height="100" width="100" src="/images/microsoftsqlserver.svg" />
+</h2> 
 
->This project is about how to create a database, add tables that exist in Excel and make some queries that related with this tables.
+> This project is about how to create a database, add tables that exist in Excel and make some queries that related with this tables.
 
 || Headlines|
 | :------: | ------ |
