@@ -11,8 +11,10 @@
 #### 1- Create a database <a name="#1"></a>
 
 - On MS SQL Server first right click on databases folder and click on Create database.
+<img src="/images/createdb.png" alt="drawing" width="400"/>
+
 - Write the database name and press OK button.
-<img src="/images/createdb.png" alt="drawing" width="400"/> | <img src="/images/createdb2.png" alt="drawing" width="400"/>
+<img src="/images/createdb2.png" alt="drawing" width="400"/>
 
 #### 2- Add existing tables from Excel <a name="#2"></a>
 
