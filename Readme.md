@@ -8,8 +8,8 @@
 |`2` |[Add existing tables from Excel](#2)|
 |`3` |[Queries abaout related table](#3)|
 
-#### 1- Create a database {#1}
 
+#### 1- Create a database <a name="1"></a>
 - On MS SQL Server first right click on databases folder and click on Create database.
 <img src="/images/createdb.png" alt="drawing" width="400"/>
 
