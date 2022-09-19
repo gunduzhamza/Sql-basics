@@ -16,7 +16,7 @@
 - Write the database name and press OK button.
 <img src="/images/createdb2.png" alt="drawing" width="400"/>
 
-#### 2- Add existing tables from Excel {#2}
+#### 2- Add existing tables from Excel <a name="2"></a>
 
 - First lets look at the table that exist on Excel
 <img src="/images/Exceltable.png" alt="drawing" height=500 width=800/>
@@ -51,7 +51,7 @@
 <img src="/images/arrangetables.png" alt="drawing" height=450 width=600/>
 <br>
 
-#### 3- Queries abaout related table {#3}
+#### 3- Queries abaout related table <a name="3"></a>
 
 ###### 3.1 Write the query that brings the list of employees still working in our company. <br> Note: Those who have an null  indate are the employees who continue to work.
 
