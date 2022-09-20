@@ -24,6 +24,7 @@
 - First lets look at the table that exist on Excel
 <img src="/images/Exceltable.png" alt="drawing" height=500 width=800/>
 <br>
+
 - As we see there are three tables on excel so lets add them to the database.
 - First right click on database and from task find İmport Data and click on it.
 <img src="/images/importdata.png" alt="drawing" height=350 width=450/>
@@ -44,6 +45,7 @@
 - Press Next button
 <img src="/images/tables.png" alt="drawing" height=400 width=450/>
 <br>
+
 - Click on finish and the tables will be implemented succesfully
 <img src="/images/finish.png" alt="drawing" height=400 width=450/>
 <br>
